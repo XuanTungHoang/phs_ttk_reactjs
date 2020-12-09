@@ -1,9 +1,11 @@
-import React from 'react'
+import React from 'react';
 
-export default function Listbook() {
-    return (
-        <div>
-            <h1>listbook</h1>
-        </div>
-    )
+function Listbook() {
+  return (
+    <div className="content-wrapper">
+        <h1>Listtttt book</h1>
+    </div>
+  );
 }
+
+export default Listbook;

@@ -26,7 +26,7 @@ export default function Menu() {
                         {/* Add icons to the links using the .nav-icon class
          with font-awesome or any other icon font library */}
                         <li className="nav-item">
-                            <Link to="/"  className="nav-link active">
+                            <Link to="/"  className="nav-link">
                                 <i className="nav-icon fas fa-tachometer-alt" />
                                 <p  >
                                     Dashboard
@@ -34,7 +34,7 @@ export default function Menu() {
                             </Link>
                         </li>
                         <li  class="nav-item">
-                            <Link to="/listbook" class="nav-link">
+                            <Link to="/listbook" className="nav-link">
                                 <i class="nav-icon far fa-image"></i>
                                 <p>
                                     Nha sach
